@@ -1,0 +1,20 @@
+/* styles.css */
+.img-container {
+    position: relative;
+}
+
+#image {
+    width: 100%;
+    max-width: 400px;
+}
+
+#lens {
+    position: absolute;
+    border: 3px solid #9a9898;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    visibility: hidden;
+    cursor: none;
+    /* background: rgba(255, 255, 255, 0.4); */
+}
